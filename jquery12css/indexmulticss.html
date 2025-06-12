@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial belajar JQuery Part 12 : Menambahkan CSS dengan JQuery</title>	
+	<script type="text/javascript" src="../jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylemulticss.css">
+</head>
+<body>
+	<h1>CSS Function JQuery | www.malasngoding.com</h1>	
+ 
+	<button class="tombol" id="tambah">Tambahkan CSS</button>
+	<div class="lingkaran"></div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#tambah').click(function(){
+			$('.lingkaran').css({"background":"blue","width":"400px","height":"400px"});
+		});	
+	});
+</script>
+</html>
